@@ -1,0 +1,49 @@
+---
+name: Account
+description: Documentation for the U-M Library Design System.
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title or eleventyNavigation.key }} | {{ name }} | University of Michigan Library</title>
+    <meta name="Description" content="{{ description }}">
+    <link rel="icon" href="/static/images/favicon-32x32.png" type="image/png">
+    <link rel="stylesheet" href="{{ '/css/index.css' | url }}"/>
+    <link
+      href="https://unpkg.com/@umich-lib/css@v1/dist/umich-lib.css"
+      rel="stylesheet"
+/>
+    <script
+      type="module"
+      src="{{ '/static/components/umich-lib/umich-lib.esm.js' | url }}"
+    ></script>
+    <script
+      nomodule
+      src="{{ '/static/components/umich-lib/umich-lib.js' | url }}"
+    ></script>
+  </head>
+  <body>
+    <m-universal-header></m-universal-header>
+    <m-website-header name="{{ name }}"></m-website-header>
+    <main class="layout">
+      {% include 'site-navigation.njk' %}
+
+      <article class="site-layout__center owl prose">
+        <h1>{{ title }}</h1>
+
+        {{ content | safe }}
+      </article>
+    </main>
+
+    {% include 'footer.njk' %}
+    <script src="https://unpkg.com/anchor-js/anchor.min.js"></script>
+    <script src="/sw.js"></script>
+  </body>
+
+  <script>
+    anchors.add();
+  </script>
+</html>
