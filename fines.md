@@ -9,4 +9,4 @@ description: The home for your University of Michigan Library account.
 
 ## Due
 
-You have never had fines, well done.
+You have never had fines. Well done!

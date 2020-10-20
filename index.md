@@ -9,8 +9,10 @@ eleventyNavigation:
 
 {{ description }}
 
-## Checkouts
+## Loans
+
+A list of loans of all kinds. And a way to view your loan history.
 
 ## Holds
 
-## Tags
+A list of all your holds, including scheduled holds.

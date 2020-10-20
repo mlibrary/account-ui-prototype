@@ -4,9 +4,14 @@ eleventyNavigation:
   key: Notifications
   order: 2
 title: Notifications
-description: The home for your University of Michigan Library account.
 ---
+
+Your notification settings for holds, loans, and fines.
+
+## Email
+
+Update your email that recieve notifications.
 
 ## Text
 
-## Email
+Update your phone number and if you want to recieve text notifications.
