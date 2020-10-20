@@ -9,7 +9,7 @@ eleventyNavigation:
 
 {{ description }}
 
-## Loans
+## Checkouts
 
 ## Holds
 
