@@ -5,10 +5,8 @@
   "main": "index.js",
   "private": true,
   "scripts": {
-    "prebuild": "npm run copy:components",
-    "build": "npx @11ty/eleventy",
-    "prestart": "npm run prebuild",
-    "start": "npx @11ty/eleventy --serve",
+    "build": "npm run copy:components && npx @11ty/eleventy",
+    "start": "npm run copy:components && npx @11ty/eleventy --serve",
     "copy:components": "npx mkdirp static/components && ncp node_modules/@umich-lib/components/dist static/components"
   },
   "devDependencies": {
