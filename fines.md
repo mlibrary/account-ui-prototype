@@ -6,3 +6,7 @@ eleventyNavigation:
 title: Fines
 description: The home for your University of Michigan Library account.
 ---
+
+## Due
+
+## Paid
