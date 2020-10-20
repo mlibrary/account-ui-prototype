@@ -21,12 +21,4 @@ Start the app
 
 ```sh
 npm start
-...
---------------------------------------
-      Local: http://localhost:8080
-   External: http://192.168.0.115:8080
---------------------------------------
-         UI: http://localhost:3001
-UI External: http://localhost:3001
---------------------------------------
 ```
