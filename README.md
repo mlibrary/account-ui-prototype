@@ -1,6 +1,6 @@
 # U-M Library Account UI Protoype
 
-A static site built with Eleventy for My Account UI prototyping. This is a work in progress.
+A UI prototype for library user accounts built with Eleventy. This is a work in progress.
 
 ## Setup development environment
 

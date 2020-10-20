@@ -1,11 +1,8 @@
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
-const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const pluginSass = require("eleventy-plugin-sass");
-const pluginTOC = require("eleventy-plugin-nesting-toc");
 const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
 const stencil = require("@umich-lib/components/hydrate");
-//const cacheBuster = require("@mightyplow/eleventy-plugin-cache-buster");
 
 module.exports = function (eleventyConfig) {
   // Copy `css/` to `_site/css/`.
