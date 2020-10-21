@@ -7,8 +7,6 @@ const stencil = require("@umich-lib/components/hydrate");
 module.exports = function (eleventyConfig) {
   // Copy `css/` to `_site/css/`.
   eleventyConfig.addPassthroughCopy("css");
-  // Copy everything in static to _site
-  eleventyConfig.addPassthroughCopy("static");
 
   // Enable plugins.
   eleventyConfig.addPlugin(eleventyNavigationPlugin);

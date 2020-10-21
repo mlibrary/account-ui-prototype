@@ -3,9 +3,8 @@
   "version": "1.0.0",
   "description": "A UI prototype for library user accounts to access loans and holds.",
   "scripts": {
-    "build": "npm run copy:components && npx @11ty/eleventy",
-    "start": "npm run copy:components && npx @11ty/eleventy --serve",
-    "copy:components": "npx mkdirp static/components && ncp node_modules/@umich-lib/components/dist static/components"
+    "build": "npx @11ty/eleventy",
+    "start": "npx @11ty/eleventy --serve"
   },
   "devDependencies": {
     "@11ty/eleventy": "^0.11.0",
