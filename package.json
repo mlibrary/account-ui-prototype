@@ -1,9 +1,7 @@
 {
   "name": "umich-lib-account-ui-prototype",
   "version": "1.0.0",
-  "description": "A UI prototype for library user accounts.",
-  "main": "index.js",
-  "private": true,
+  "description": "A UI prototype for library user accounts to access loans and holds.",
   "scripts": {
     "build": "npm run copy:components && npx @11ty/eleventy",
     "start": "npm run copy:components && npx @11ty/eleventy --serve",
